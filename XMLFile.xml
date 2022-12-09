@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>http://localhost:1846/course/images/University-of-Mysore-MA-Admission.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://localhost:1846/course/images/senatebhawan.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://localhost:1846/course/images/Fine arts college.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://localhost:1846/course/images/college-search-pic.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://localhost:1846/course/images/crawfordhall_0.jpg</ImageUrl>
+  </Ad>
+</Advertisements>

@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+<html>
+<head>
+
+    <meta charset="UTF-8">
+	<title>Women Clothing Web Template</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+    <style type="text/css">
+        .style1
+        {
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+	<form id="form1" runat="server">
+	<div id="header">
+		<div>
+			
+            <div id="logo">
+				<img src="images/courseFinder2-main_print.jpg" alt="LOGO">
+			</div>
+			<ul id="navigation">
+				<li class="selected">
+					<a href="home.aspx">Home</a>
+				</li>
+				<li>
+					<a href="login.aspx">Login</a>
+				</li>
+				<li>
+					<a href="register.aspx">Register</a>
+				</li>
+				<li>
+					<a href="contact.aspx">Contact us</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+	
+    </asp:ContentPlaceHolder>
+		
+   <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+       <div id="contents">
+           <div id="adbox">
+               &nbsp;<p>
+               </p>
+           </div>
+           <div id="featured">
+               <ul <h1>
+                   <span style="font-size: 32pt">Welcome! </span>
+                   </h1>
+                   <p>
+                       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                       <span style="font-size: 18pt"><span><span class="style1">CourseFinder helps you locate your ideal university degree course. Quickly complete
+                        the study interests</span><span style="color: #ff9933"> <span class="style1">questionnaire,</span></span></span><span class="style1"> designed by Morrisby, to pin-point your interests
+                    in 150+ degree disciplines.</span></span></p>
+                   <br class="style1" />
+                   <p class="style1">
+                       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                       <span style="font-size: 18pt">&nbsp;<span class="style1">Choose the location, study style, type of university or college and let CourseFinder
+                    search through over 50,000 Higher Education courses from 500&nbsp; Institutions.
+                       </span></span>
+                   </p>
+                   <br class="style1" />
+                   <p>
+                       <span class="style1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                       </span><span style="font-size: 18pt"><span class="style1">Alternatively, use the PowerSearch tool to locate courses that match your specific
+                    requirements. There is also information on how to make your choice, where different
+                    subjects may lead, help and advice on completing your UCAS form and it's completely
+                    free.</span> </span>
+                   </p>
+                   <br />
+                   <br />
+                   <br />
+                   <p class="style1">
+                       SOME OF THE FEATURED COLLEGES</p>
+                   <li><a href="index.html">
+                       <img src="images/don%20bosco.jpeg" alt="Img"></a>
+                       <p>
+                       </p>
+                   </li>
+                   <li><a href="index.html">
+                       <img src="images/east%20west%20college.jpg" alt="Img"></a>
+                       <p>
+                       </p>
+                   </li>
+                   <li><a href="index.html">
+                       <img src="images/RV%20institution.jpg" alt="img" 
+                        vspace="66" width="500"></a>
+                       <p>
+                       </p>
+                   </li>
+               </ul>
+           </div>
+       </div>
+       <div id="footer">
+           <p>
+               © 2023 Vistida. All Rights Reserved.
+           </p>
+       </div>
+   </asp:ContentPlaceHolder> 
+    </form>
+</body>
+</html>
